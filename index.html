@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A music-inspired webpage featuring DEAF KEV's Invincible.">
+  <title>Invincible | My Favourite Song</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Go to top">
+      <span class="brand-mark" aria-hidden="true">♪</span>
+      <span>Soundscape</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#story">Why I love it</a>
+      <a href="#listen">Listen</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A song that makes the world feel brighter</p>
+        <h1 id="page-title">Feel<br><em>Invincible</em></h1>
+        <p class="artist">DEAF KEV</p>
+        <p class="intro">An energizing electronic anthem built on bright melodies and a fearless beat. This is the song I reach for when I need focus, momentum, and a little extra confidence.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#listen">
+            <span class="play-icon" aria-hidden="true">▶</span>
+            Watch the video
+          </a>
+          <button class="secondary-button" id="animateButton" type="button">Release the rhythm</button>
+        </div>
+      </div>
+
+      <div class="visual-stage" id="visualStage" aria-label="Animated music visualizer">
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="record" aria-hidden="true">
+          <div class="record-rings"></div>
+          <div class="record-label">
+            <span>INV</span>
+            <small>2015</small>
+          </div>
+        </div>
+        <div class="equalizer" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="now-playing"><span></span> Now playing in my head</p>
+      </div>
+    </section>
+
+    <section class="story-section" id="story" aria-labelledby="story-title">
+      <div class="section-number">01</div>
+      <div class="story-copy">
+        <p class="section-kicker">Why this song?</p>
+        <h2 id="story-title">Joy you can<br>move to.</h2>
+      </div>
+      <div class="story-details">
+        <p>The melody starts with a spark, the beat gathers force, and the whole track grows into the kind of sound that makes any challenge feel possible.</p>
+        <p>What I love most is its momentum. With no lyrics needed, the music tells a clear story about courage, energy, and moving forward.</p>
+        <div class="tags" aria-label="Song qualities">
+          <span>Feel-good</span>
+          <span>Dance</span>
+          <span>Uplifting</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-section" id="listen" aria-labelledby="video-title">
+      <div class="video-heading">
+        <div>
+          <p class="section-kicker">Press play</p>
+          <h2 id="video-title">Turn it up.</h2>
+        </div>
+        <p>Official music video<br>from NoCopyrightSounds on YouTube</p>
+      </div>
+      <div class="video-frame">
+        <iframe
+          src="https://www.youtube.com/embed/J2X5mJ3HDYE"
+          title="DEAF KEV - Invincible [NCS Release]"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with HTML, styled with CSS, and brought to life with JavaScript.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
